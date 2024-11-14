@@ -1,0 +1,12 @@
+.section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.title-new-gift {
+  font: var(--M-h2-font-size-font);
+  color: var(--title-color);
+}

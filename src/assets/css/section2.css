@@ -1,0 +1,47 @@
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.title-giving {
+  font: var(--M-h2-font-size-font);
+  color: var(--title-color);
+  text-align: center;
+}
+
+.giving-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 28px;
+  column-gap: 40px;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.giving {
+  width: 128px;
+  height: 173px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.giving img {
+  width: 100px;
+  height: 100px;
+}
+
+.sub-title-giving {
+  font: var(--M-h3-font-size-font);
+  color: var(--title-color);
+}
+
+.text-giving {
+  font: var(--M-small-font-size-font);
+  color: var(--text-color);
+}

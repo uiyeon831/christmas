@@ -1,0 +1,45 @@
+.section1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-top: 1rem;
+}
+
+.img-home {
+  width: 90%;
+}
+
+.text-box {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+}
+
+.text-home {
+  font: var(--M-biggest-font-size-font);
+  color: var(--title-color);
+  text-align: center;
+}
+
+.text-home-sub {
+  font: var(--M-small-font-size-font);
+  color: var(--text-color);
+  text-align: center;
+  padding: 0 4%;
+}
+
+.btn-home {
+  width: 210px;
+  height: 62px;
+  font: var(--M-normal-font-size-font);
+  font-weight: 400;
+  background-color: var(--first-color);
+  border-radius: 10rem;
+  color: white;
+}

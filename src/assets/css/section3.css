@@ -1,0 +1,42 @@
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.text-box-celebrate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.title-celebrate {
+  font: var(--M-h2-font-size-font);
+  color: var(--title-color);
+}
+
+.text-celebrate {
+  width: 85%;
+  font: var(--M-normal-font-size-font);
+  color: var(--text-color);
+}
+
+.btn-celebrate {
+  width: 221px;
+  height: 62px;
+  font: var(--M-normal-font-size-font);
+  font-weight: 400;
+  background-color: var(--first-color);
+  border-radius: 10rem;
+  color: white;
+}
+
+.celebrate {
+  width: 280px;
+  height: 280px;
+}
