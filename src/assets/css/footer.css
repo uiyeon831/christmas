@@ -4,7 +4,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 42px;
+  padding-bottom: 2.625rem;
   position: relative;
 }
 
@@ -12,20 +12,20 @@ footer {
   width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 42px;
-  padding-bottom: 42px;
+  gap: 2.625rem;
+  padding-bottom: 2.625rem;
 }
 
 .footer-box {
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .img-footer {
-  width: 107px;
-  height: 24px;
+  width: 6.6875rem;
+  height: 1.5rem;
 }
 
 .title-footer {
@@ -36,7 +36,7 @@ footer {
 .footer-text-box {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .text-footer {
@@ -45,20 +45,20 @@ footer {
 }
 
 .available {
-  width: 100px;
+  width: 6.25rem;
 }
 
 .footer1 {
-  width: 100px;
-  height: 110px;
+  width: 6.25rem;
+  height: 6.875rem;
   position: absolute;
   top: 22%;
   right: 14%;
 }
 
 .footer2 {
-  width: 100px;
-  height: 110px;
+  width: 6.25rem;
+  height: 6.875rem;
   position: absolute;
   bottom: 18%;
   right: -12%;

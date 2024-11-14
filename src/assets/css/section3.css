@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .text-box-celebrate {
@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .title-celebrate {
@@ -27,8 +27,8 @@
 }
 
 .btn-celebrate {
-  width: 221px;
-  height: 62px;
+  width: 13.8125rem;
+  height: 3.875rem;
   font: var(--M-normal-font-size-font);
   font-weight: 400;
   background-color: var(--first-color);
@@ -37,6 +37,6 @@
 }
 
 .celebrate {
-  width: 280px;
-  height: 280px;
+  width: 17.5rem;
+  height: 17.5rem;
 }

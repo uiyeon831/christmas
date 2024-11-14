@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
   padding-top: 1rem;
 }
 
@@ -17,8 +17,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  padding-bottom: 16px;
+  gap: 0.75rem;
+  padding-bottom: 1rem;
 }
 
 .text-home {
@@ -35,8 +35,8 @@
 }
 
 .btn-home {
-  width: 210px;
-  height: 62px;
+  width: 13.125rem;
+  height: 3.875rem;
   font: var(--M-normal-font-size-font);
   font-weight: 400;
   background-color: var(--first-color);

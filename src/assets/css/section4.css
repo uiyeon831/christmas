@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 3rem;
 }
 
 .title-gift {
@@ -14,8 +14,8 @@
 .gift-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 24px;
-  column-gap: 24px;
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 
 .gift-box {
@@ -24,24 +24,24 @@
   justify-content: center;
   align-items: center;
   background-color: var(--container-color);
-  border-radius: 12px;
-  box-shadow: 0 3px 24px rgba(48, 29, 30, 10%) ;
-  padding: 20px 16px;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.1875rem 1.5rem rgba(48, 29, 30, 10%) ;
+  padding: 1.25rem 1rem;
   position: relative;
 }
 
 .heart-svg {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 1rem;
+  right: 1rem;
   z-index: 80;
 }
 
 .img-gift {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .gift-text-box {

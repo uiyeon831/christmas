@@ -3,6 +3,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5em;
+  gap: 5rem;
   padding-bottom: 5em;
 }
