@@ -1,3 +1,109 @@
+.swiper-container {
+  max-width: 30rem;
+  height: 25.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.swiper-slide {
+  max-width: 17rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: white;
+  box-shadow: 0.1875rem 0.1875rem 1.5rem rgba(48, 29, 30, 10%) ;
+  border-radius: 0.8rem;
+  position: relative;
+}
+
+.img-box {
+  width: 100%;
+  background-color: var(--first-color);
+  border-radius: 1rem;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
+  padding: 1.5rem 0;
+}
+
+.img-box img {
+  width: 9.375rem;
+}
+
+.text-swiper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.swiper-title-text {
+  font: var(--D-h3-font-size-font);
+  color: var(--title-color);
+}
+
+.swiper-text {
+  font: var(--M-normal-font-size-font);
+  color: var(--text-color);
+}
+
+.swiper-heart-box {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--first-color);
+  border-radius: 0.3rem;
+  border-bottom-right-radius: 0.8rem;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.swiper-heart-svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.swiper-pagination {
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: .3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  width: 0.45rem;
+  height: 0.45rem;
+  background-color: var(--text-color);
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: var(--first-color);
+  opacity: 1;
+}
+
 .section5 {
   display: flex;
   flex-direction: column;
@@ -12,6 +118,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .swiper-container {
+    max-width: 60rem;
+  }
+
   .title-new-gift {
     font: var(--D-h2-font-size-font);
   }
