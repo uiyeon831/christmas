@@ -24,8 +24,7 @@
 }
 
 .img-home {
-  width: 90%;
-  max-width: 36rem;
+  width: 24rem;
 }
 
 .btn-home {
@@ -69,6 +68,10 @@
     flex-direction: row;
     gap: 2rem;
     padding: 3rem 8rem 0 0;
+  }
+
+  .img-home {
+    width: 36rem;
   }
 
   .text-container {
