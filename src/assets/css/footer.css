@@ -50,7 +50,6 @@ footer {
 
 .footer1 {
   width: 6.25rem;
-  height: 6.875rem;
   position: absolute;
   top: 22%;
   right: 14%;
@@ -58,8 +57,46 @@ footer {
 
 .footer2 {
   width: 6.25rem;
-  height: 6.875rem;
   position: absolute;
   bottom: 18%;
   right: -12%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8rem 0;
+  }
+
+  .footer-box {
+    width: fit-content;
+    max-width: 10rem;
+    gap: 1.6rem;
+  }
+
+  .title-footer {
+    font: var(--D-h3-font-size-font);
+  }
+  
+  .text-footer {
+    font: var(--D-normal-font-size-font);
+  }
+  
+
+  .footer1 {
+    width: 7rem;
+    position: absolute;
+    top: 57%;
+    left: 14%;
+  }
+  
+  .footer2 {
+    width: 7rem;
+    position: absolute;
+    top: 42%;
+    right: 7%;
+  }
 }

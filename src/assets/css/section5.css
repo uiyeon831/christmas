@@ -10,3 +10,9 @@
   font: var(--M-h2-font-size-font);
   color: var(--title-color);
 }
+
+@media screen and (min-width: 768px) {
+  .title-new-gift {
+    font: var(--D-h2-font-size-font);
+  }
+}

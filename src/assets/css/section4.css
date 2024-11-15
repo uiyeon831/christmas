@@ -19,6 +19,8 @@
 }
 
 .gift-box {
+  width: 9rem;
+  height: 11.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +59,40 @@
 }
 
 .text-gift {
-  font: var(--D-small-font-size-font);
+  font: var(--M-small-font-size-font);
   color: var(--text-color);
+}
+
+
+@media screen and (min-width: 768px) {
+  .gift-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gift-box {
+    width: 12rem;
+    height: 15.4rem;
+    padding: 2rem 1.5rem;
+    gap: 1rem;
+  }
+
+  .heart-svg {
+    top: 1.2rem;
+    right: 1.2rem;
+  }
+
+  .img-gift {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .num-gift {
+    font: var(--D-h3-font-size-font);
+    color: var(--title-color);
+  }
+  
+  .text-gift {
+    font: var(--D-small-font-size-font);
+    color: var(--text-color);
+  }
 }

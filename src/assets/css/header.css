@@ -13,10 +13,8 @@ header {
   align-items: center;
 }
 
-.menu-desktop {
-  display: flex;
-  display: none;
-  gap: 3rem;
+.home-color{
+  color: var(--first-color);
 }
 
 .icon-header {
@@ -33,4 +31,23 @@ header {
   width: 1.25rem;
   height: 1.25rem;
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-desktop {
+    display: flex;
+    display: none;
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-mobile-svg {
+    display: none;
+  }
+
+  .menu-desktop {
+    display: flex;
+    gap: 3rem;
+  }
 }

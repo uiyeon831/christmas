@@ -1,4 +1,6 @@
 .section6 {
+  min-width: 19.8rem;
+  max-width: 26rem;
   width: 90%;
   height: 100%;
   display: flex;
@@ -7,8 +9,17 @@
   align-items: center;
   background-color: var(--first-color);
   border-radius: 1.25rem;
+  gap: 1rem;
+  padding: 2.625rem 0 1rem 0;
+}
+
+.send-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  padding: 2.625rem 0 0 1rem;
 }
 
 .title-send-box {
@@ -45,10 +56,45 @@
   height: 3.4375rem;
   border-radius: 4rem;
   background-color: var(--title-color);
+  font: var(--M-normal-font-size-font);
   color: white;
 }
 
 .letter {
   width: 14.25rem;
   height: 11.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section6 {
+    width: 90%;
+    max-width: 180rem;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2.625rem 6rem 2.625rem 8rem;
+  }
+
+  .send-container {
+    justify-content: left;
+    align-items: flex-start;
+  }
+
+  .title-send-box {
+    font: var(--D-h1-font-size-font);
+    text-align: left;
+  }
+
+  .btn-send {
+    width: 11.5rem;
+  }
+
+  .input-box {
+    justify-content: left;
+    align-items: flex-start;
+  }
+
+  .letter {
+    width: 22.875rem;
+    height: 18.5rem;
+  }
 }
