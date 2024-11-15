@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  /* font */
+  --M-biggest-font-size-font: normal 500 24px/1.4 "Poppins";
+  --M-h1-font-size-font: normal 500 24px "Poppins";
+  --M-h2-font-size-font: normal 500 20px "Poppins";
+  --M-h3-font-size-font: normal 500 16px "Poppins";
+  --M-normal-font-size-font: normal 300 15px "Poppins";
+  --M-small-font-size-font: normal 300 13px "Poppins";
+  --M-smaller-font-size-font: normal 300 12px "Poppins";
+
+  --D-biggest-font-size-font: normal 500 40px/1.4 "Poppins";
+  --D-h1-font-size-font: normal 500 36px "Poppins";
+  --D-h2-font-size-font: normal 500 24px "Poppins";
+  --D-h3-font-size-font: normal 500 20px "Poppins";
+  --D-normal-font-size-font: normal 300 16px "Poppins";
+  --D-small-font-size-font: normal 300 14px "Poppins";
+  --D-smaller-font-size: normal 300 13px "Poppins";
+
+
+  /* color */
+  --first-color: #DC3845;
+  --first-color-alt: #D42B39;
+  --title-color: #282525;
+  --text-color: #5D5656;
+  --text-color-light: #918889;
+  --body-color: #FFFFFF;
+  --container-color: #FFFFFF;
+  --first-color-dark: #DB4D59;
+  --title-color-dark: #F3F2F2;
+  --text-color-dark: #C2BDBD;
+  --body-color-dark: #251819;
+  --container-color-dark: #2F2223;
+}
